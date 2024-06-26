@@ -1,0 +1,23 @@
+
+
+  
+  input {
+    height: 30px;
+    width: 300px;
+  }
+  
+  button {
+    background-color: blue;
+    font-size: 16px;
+    height: 40px;
+    width: 200px;
+    border-radius: 2px;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: darkblue;
+  }
+  

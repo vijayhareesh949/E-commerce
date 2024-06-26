@@ -1,0 +1,35 @@
+
+  
+  button {
+    border-radius: 20px;
+    cursor: pointer;
+    margin-left: 130px;
+    width: 120px;
+    height: 40px;
+  }
+  
+ 
+  
+  h2 {
+    color: black;
+  }
+  
+  form {
+    width: 350px;
+    margin: 0 auto;
+
+  }
+  
+  fieldset {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    border: 2px solid black;
+    padding: 20px;
+    border-radius: 10px;
+  }
+#registerform{
+
+}
+  

@@ -6,6 +6,11 @@ import Products from "./products";
 import Navbar1 from "./navbar";
 import ProductCard from "./productcard";
 import Cart from "./cart";
+import About from "./about";
+import Contact from "./contact";
+import Checkout from "./checkout";
+import Login from "./login";
+import RegistrationForm from "./registration";
 
 const Navigation = () => {
   return (
@@ -19,6 +24,11 @@ const Navigation = () => {
           <Route path="/products" element={<Products />} />
           <Route path="/products/:id" element={<ProductCard/>} />
           <Route path="/cart" element={<Cart/>} />
+          <Route path="/about" element={<About/>}/>
+          <Route path='/contact' element={<Contact/>}/>
+          <Route path="/Checkout" element={<Checkout/>}/>
+          <Route path="/register" element={<RegistrationForm/>}/>
+          <Route path="/login" element={<Login/>}/>
         </Routes>
       </BrowserRouter>
     </>
@@ -27,31 +37,4 @@ const Navigation = () => {
 
 export default Navigation;
 
-
-// import { NavLink, Redirect, Route, Switch } from 'react-router-dom';
-
-// import ProductCard from './productcard';
-// import Products from './products';
-// import Home from './Home'; // Corrected import
-// // import Homes from './Home';
-
-// // function App() {
-// //   return (
-// //     <>
-// //       <nav>
-// //         <NavLink to="/">Home</NavLink>
-// //         <NavLink to="/products">Products</NavLink>
-// //       </nav>
-// //       <Switch>
-// //         <Route exact path="/" component={Homes} />
-// //         <Route exact path="/products" component={Products} />
-// //         <Route exact path="/products/:id" component={ProductCard} />
-// //         {/* Add more routes as needed */}
-// //         <Redirect to="/" />
-// //       </Switch>
-// //     </>
-// //   );
-// // }
-
-// // export default App;
 

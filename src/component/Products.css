@@ -1,0 +1,76 @@
+/* Products.css */
+
+/* Styling for product cards */
+.card {
+  border: none;
+  transition: transform 0.2s;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card-img-top {
+  object-fit: contain;
+  height: 180px; /* Ensure the image fits within the card */
+  width: 100%; /* Make sure the image takes the full width of the card */
+  display: block;
+  margin: 0 auto; /* Center the image within the card */
+}
+
+.card-body {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card-title {
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+.card-text {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.buttons .btn {
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.row {
+  margin: 0;
+  padding: 0;
+}
+
+.col-md-3 {
+  padding: 15px;
+}
+
+/* Ensure there are no unwanted background styles */
+body, html, .container, .row, .col-md-3 {
+  background-color: transparent;
+  box-shadow: none;
+  border: none;
+}
+
+/* Additional adjustments to remove borders from surrounding elements */
+.container, .row {
+  border: none !important;
+}
+
+.buttons, .col-md-3 {
+  border: none !important;
+}
+
+/* If there's a specific element causing the issue, target it directly */
+.specific-element {
+  border: none !important;
+  box-shadow: none !important;
+}

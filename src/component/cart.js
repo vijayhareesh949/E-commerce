@@ -86,7 +86,7 @@ const Cart = () => {
                 <div className="container py-4">
                     <div className="row justify-content-center">
                         <div className="col-md-4">
-                            <img src={product.image} alt={product.title} height="200px" width="180px" />
+                            <img src={product.image} alt={product.title} height="200px" width='200px'  />
                         </div>
                         <div className="col-md-4">
                             <h3>{product.title}</h3>
@@ -112,7 +112,7 @@ const Cart = () => {
             <>
                 <div className="container">
                     <div className="row">
-                        <NavLink to="/checkout" className="btn btn-outline-dark mb-5 w-25 mx-auto">
+                        <NavLink to="/Checkout" className="btn btn-outline-dark mb-5 w-25 mx-auto">
                             Proceed to Checkout
                         </NavLink>
                     </div>
