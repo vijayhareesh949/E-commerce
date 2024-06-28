@@ -22,12 +22,12 @@ const RegistrationForm = () => {
       return false;
     }
 
-    // Store the registration data in localStorage
+    
     localStorage.setItem("username", JSON.stringify(username));
     localStorage.setItem("password", JSON.stringify(password));
 
     alert("Registration successful! Now go to the login page.");
-    // Redirect to the login page
+  
     navigate('/login')
 
     return true;
